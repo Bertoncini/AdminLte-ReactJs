@@ -26,7 +26,7 @@ class Header extends Component {
                                             <li>
                                                 <a href="/">
                                                     <div className="pull-left">
-                                                        <img src="img/user2-160x160.jpg" className="img-circle" alt="Foto usuario" />
+                                                        <img src="assets/dist/img/avatar.png" className="img-circle" alt="Foto usuario" />
                                                     </div>
                                                     <h4>
                                                         Support Team
