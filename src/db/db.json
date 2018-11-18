@@ -149,7 +149,7 @@
     },
     {
       "title": "Tables",
-      "icon": "fa fa-edit",
+      "icon": "fa fa-table",
       "url": "/",
       "submenu": [
         {
@@ -166,7 +166,7 @@
     },
     {
       "title": "Calendar",
-      "icon": "fa fa-edit",
+      "icon": "fa fa-calendar",
       "url": "/pages/calendar.html",
       "notify": [
         {
@@ -174,14 +174,14 @@
           "message": "17"
         },
         {
-          "icon": "pull-right bg-blue",
+          "color": "pull-right bg-blue",
           "message": "3"
         }
       ]
     },
     {
       "title": "Mailbox",
-      "icon": "fa fa-edit",
+      "icon": "fa fa-envelope",
       "url": "/pages/mailbox.html",
       "notify": [
         {
@@ -189,11 +189,11 @@
           "message": "12"
         },
         {
-          "icon": "pull-right bg-green",
+          "color": "pull-right bg-green",
           "message": "16"
         },
         {
-          "icon": "pull-right bg-red",
+          "color": "pull-right bg-red",
           "message": "5"
         }
       ]
