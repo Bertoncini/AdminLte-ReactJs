@@ -10,6 +10,6 @@ export default class NavBar extends Component {
             return (null);
 
         var items = this.props.items.map(this.generateItem);
-        return <ul class={`${this.props.raiz ? "sidebar-menu tree dara-widget=\"true\"":"treeview-menu"}`}>{items}</ul>;
+        return this.props.raiz ? <ul class="sidebar-menu tree" data-widget="tree">{items}</ul> : <ul class="treeview-menu">{items}</ul>;
     }
 }
