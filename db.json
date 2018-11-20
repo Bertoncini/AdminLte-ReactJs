@@ -1,0 +1,320 @@
+{
+  "menu": [
+    {
+      "title": "Dashboard",
+      "icon": "fa fa-dashboard",
+      "url": "/",
+      "submenu": [
+        {
+          "title": "Dashboard v1",
+          "icon": "fa fa-circle-o",
+          "url": "/Index"
+        },
+        {
+          "title": "Dashboard v2",
+          "icon": "fa fa-circle-o",
+          "url": "/Index2"
+        }
+      ]
+    },
+    {
+      "title": "Layout Options",
+      "icon": "fa fa-files-o",
+      "url": "/",
+      "notify": [
+        {
+          "color": "label-primary pull-right",
+          "message": "4"
+        }
+      ],
+      "submenu": [
+        {
+          "title": "Top Navigation",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/layout/top-nav"
+        },
+        {
+          "title": "Boxed",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/layout/boxed"
+        },
+        {
+          "title": "Fixed",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/layout/fixed"
+        },
+        {
+          "title": "Collapsed Sidebar",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/layout/collapsed-sidebar"
+        }
+      ]
+    },
+    {
+      "title": "Widgets",
+      "icon": "fa fa-th",
+      "url": "pages/widgets",
+      "notify": [
+        {
+          "color": "pull-right bg-green",
+          "message": "new"
+        }
+      ]
+    },
+    {
+      "title": "Charts",
+      "icon": "fa fa-pie-chart",
+      "url": "/",
+      "submenu": [
+        {
+          "title": "ChartJS",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/charts/chartjs"
+        },
+        {
+          "title": "Morris",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/charts/morris"
+        },
+        {
+          "title": "Flot",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/charts/flot"
+        },
+        {
+          "title": "Inline charts",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/charts/inline"
+        }
+      ]
+    },
+    {
+      "title": "UI Elements",
+      "icon": "fa fa-laptop",
+      "url": "/",
+      "submenu": [
+        {
+          "title": "General",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/UI/general"
+        },
+        {
+          "title": "Icons",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/ui/icons"
+        },
+        {
+          "title": "Buttons",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/ui/button"
+        },
+        {
+          "title": "Sliders",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/ui/sliders"
+        },
+        {
+          "title": "Timeline",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/ui/timeline"
+        },
+        {
+          "title": "Modals",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/ui/modals"
+        }
+      ]
+    },
+    {
+      "title": "Forms",
+      "icon": "fa fa-edit",
+      "url": "/",
+      "submenu": [
+        {
+          "title": "General",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/forms/general"
+        },
+        {
+          "title": "Advanced",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/forms/advanced"
+        },
+        {
+          "title": "Editors",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/forms/editors"
+        }
+      ]
+    },
+    {
+      "title": "Tables",
+      "icon": "fa fa-table",
+      "url": "/",
+      "submenu": [
+        {
+          "title": "Simple",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/tables/simple"
+        },
+        {
+          "title": "Data",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/tables/data"
+        }
+      ]
+    },
+    {
+      "title": "Calendar",
+      "icon": "fa fa-calendar",
+      "url": "/pages/calendar",
+      "notify": [
+        {
+          "color": "pull-right bg-red",
+          "message": "17"
+        },
+        {
+          "color": "pull-right bg-blue",
+          "message": "3"
+        }
+      ]
+    },
+    {
+      "title": "Mailbox",
+      "icon": "fa fa-envelope",
+      "url": "/pages/mailbox",
+      "notify": [
+        {
+          "color": "pull-right bg-yellow",
+          "message": "12"
+        },
+        {
+          "color": "pull-right bg-green",
+          "message": "16"
+        },
+        {
+          "color": "pull-right bg-red",
+          "message": "5"
+        }
+      ]
+    },
+    {
+      "title": "Examples",
+      "icon": "fa fa-folder",
+      "url": "/",
+      "submenu": [
+        {
+          "title": "Invoice",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/examples/invoice"
+        },
+        {
+          "title": "Profile",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/examples/profile"
+        },
+        {
+          "title": "Login",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/examples/login"
+        },
+        {
+          "title": "Register",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/examples/register"
+        },
+        {
+          "title": "Lockscreen",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/examples/lockscreen"
+        },
+        {
+          "title": "404 Error",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/examples/404"
+        },
+        {
+          "title": "500 Error",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/examples/500"
+        },
+        {
+          "title": "Blank Page",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/examples/blank"
+        },
+        {
+          "title": "Pace Page",
+          "icon": "fa fa-circle-o",
+          "url": "/pages/examples/pace"
+        }
+      ]
+    },
+    {
+      "title": "Multilevel",
+      "icon": "fa fa-share",
+      "url": "/",
+      "submenu": [
+        {
+          "title": "Level One",
+          "icon": "fa fa-circle-o",
+          "url": "/"
+        },
+        {
+          "title": "Level One",
+          "icon": "fa fa-circle-o",
+          "url": "/",
+          "submenu": [
+            {
+              "title": "Level Two",
+              "icon": "fa fa-circle-o",
+              "url": "/"
+            },
+            {
+              "title": "Level Two",
+              "icon": "fa fa-circle-o",
+              "url": "/",
+              "submenu": [
+                {
+                  "title": "Level Three",
+                  "icon": "fa fa-circle-o",
+                  "url": "/"
+                },
+                {
+                  "title": "Level Three",
+                  "icon": "fa fa-circle-o",
+                  "url": "/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Level One",
+          "icon": "fa fa-circle-o",
+          "url": "/"
+        }
+      ]
+    },
+    {
+      "title": "Documentation",
+      "icon": "fa fa-book",
+      "url": "https://adminlte.io/docs"
+    },
+    {
+      "title": "Important",
+      "icon": "fa fa-circle-o text-red",
+      "url": "/"
+    },
+    {
+      "title": "Warning",
+      "icon": "fa fa-circle-o text-yellow",
+      "url": "/"
+    },
+    {
+      "title": "Information",
+      "icon": "fa fa-circle-o text-aqua",
+      "url": "/"
+    }
+  ]
+}
