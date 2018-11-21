@@ -1,6 +1,7 @@
 {
   "menu": [
     {
+      "id":1,
       "title": "Dashboard",
       "icon": "fa fa-dashboard",
       "url": "/",
